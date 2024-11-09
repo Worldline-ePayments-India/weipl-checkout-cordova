@@ -9,10 +9,13 @@ dependencies {
    /* Native aar & its dependencies */
    implementation (name:'weipl_checkout', ext:'aar')
    implementation 'androidx.appcompat:appcompat:1.4.0'
-   implementation 'com.google.code.gson:gson:2.8.8'
-   implementation 'com.android.volley:volley:1.2.1'
    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+   implementation 'com.android.volley:volley:1.2.1'
+   implementation 'com.google.android.gms:play-services-auth:21.0.0'
+   implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.2'
+
    implementation 'androidx.core:core-ktx:1.8.0'
+   implementation 'com.google.code.gson:gson:2.8.8'
 }
 
 android {
