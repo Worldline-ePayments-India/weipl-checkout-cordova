@@ -1,3 +1,7 @@
+## 1.4.1
+
+- FIX: Optimization of preload method from native android & iOS. Added Android OS 15 support for Edge to Edge content display.
+
 ## 1.4.0
 
 - SMS Auto Read OTP support added and also some minor bug fixes applied

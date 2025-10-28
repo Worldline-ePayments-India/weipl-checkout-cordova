@@ -10,7 +10,6 @@ import weipl_checkout
   @objc(pluginInitialize)
   override func pluginInitialize() {
     WLCheckout = WLCheckoutViewController()
-    WLCheckout?.preloadData()
   }
 
   @objc(open:)

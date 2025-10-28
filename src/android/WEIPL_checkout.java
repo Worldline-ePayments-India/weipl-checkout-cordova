@@ -15,7 +15,6 @@ implements WLCheckoutActivity.PaymentResponseListener {
   @Override
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
-    WLCheckoutActivity.preloadData(cordova.getActivity().getApplicationContext());
   }
 
   @Override
