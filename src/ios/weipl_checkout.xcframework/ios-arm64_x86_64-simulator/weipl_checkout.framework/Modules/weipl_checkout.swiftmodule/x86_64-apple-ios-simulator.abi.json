@@ -56,149 +56,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "WEIPLSwift",
-        "printedName": "WEIPLSwift",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "loadSDK",
-            "printedName": "loadSDK()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@weipl_checkout@objc(cs)WEIPLSwift(im)loadSDK",
-            "mangledName": "$s14weipl_checkout10WEIPLSwiftC7loadSDKyyF",
-            "moduleName": "weipl_checkout",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WEIPLSwift",
-                "printedName": "weipl_checkout.WEIPLSwift",
-                "usr": "c:@M@weipl_checkout@objc(cs)WEIPLSwift"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@weipl_checkout@objc(cs)WEIPLSwift(im)init",
-            "mangledName": "$s14weipl_checkout10WEIPLSwiftCACycfc",
-            "moduleName": "weipl_checkout",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@weipl_checkout@objc(cs)WEIPLSwift",
-        "mangledName": "$s14weipl_checkout10WEIPLSwiftC",
-        "moduleName": "weipl_checkout",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "weipl_checkout",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
@@ -353,29 +210,6 @@
           },
           {
             "kind": "Function",
-            "name": "preloadData",
-            "printedName": "preloadData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14weipl_checkout24WLCheckoutViewControllerC11preloadDatayyF",
-            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC11preloadDatayyF",
-            "moduleName": "weipl_checkout",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "open",
             "printedName": "open(requestObj:)",
             "children": [
@@ -400,6 +234,39 @@
               "Custom",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@weipl_checkout@objc(cs)WLCheckoutViewController(im)viewWillDisappear:",
+            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "weipl_checkout",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1016,6 +883,112 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@weipl_checkout@objc(cs)WLCheckoutViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "weipl_checkout",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@weipl_checkout@objc(cs)WLCheckoutViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "weipl_checkout",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@weipl_checkout@objc(cs)WLCheckoutViewController(py)shouldAutorotate",
+            "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "weipl_checkout",
+            "overriding": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@weipl_checkout@objc(cs)WLCheckoutViewController(im)shouldAutorotate",
+                "mangledName": "$s14weipl_checkout24WLCheckoutViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "weipl_checkout",
+                "overriding": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1113,6 +1086,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -1121,109 +1101,158 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 282,
       "length": 65,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/checkout.html\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 380,
       "length": 68,
       "value": "\"https:\/\/paynimo.com\/paynimocheckout\/server\/others\/banksConfig.json\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 1053,
       "length": 56,
       "value": "\"Are you sure you want to cancel the payment \/ request?\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 1144,
       "length": 93,
       "value": "\"Due to some technical reason we are unable to process your request, please try again later!\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 1271,
       "length": 73,
       "value": "\"We are unable to process your request. Kindly check network connection.\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1373,
       "length": 42,
       "value": "\"Kindly call preloadData() to initialize.\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1445,
       "length": 119,
       "value": "\"Incorrect device identifier is passed, please use valid iOS device associated device identifiers like iOSSH1, iOSSH2.\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1599,
       "length": 31,
       "value": "\"Payload data is not received.\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 16,
+      "value": "\"BankConfigData\""
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "StringLiteral",
+      "offset": 5320,
+      "length": 30,
+      "value": "\"BankConfigLastFetchTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5389,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5391,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5394,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5397,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Utility.swift",
+      "kind": "StringLiteral",
+      "offset": 5492,
+      "length": 12,
+      "value": "\"URLDataKey\""
+    },
+    {
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1178,
       "length": 7,
       "value": "\":#[]@\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 13,
       "value": "\"!$&'()*+,;=\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1385,
       "length": 54,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1414,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1438,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/WLCheckoutViewController.swift",
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/WLCheckoutViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 935,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ashishp\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/WLCheckoutViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 18704,
-      "length": 3,
-      "value": "1.0"
+      "filePath": "\/Users\/ashishpalaskar\/Documents\/WL Office Data\/WL Projects\/WL iOS Project Code\/GITLAB\/hybrid-sdk\/weipl_checkout\/WLCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 51528,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

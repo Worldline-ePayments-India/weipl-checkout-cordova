@@ -1,3 +1,7 @@
+## 1.4.2
+
+- FIX: Added enhanced double back click functionality for Android and iOS.
+
 ## 1.4.1
 
 - FIX: Optimization of preload method from native android & iOS. Added Android OS 15 support for Edge to Edge content display.
